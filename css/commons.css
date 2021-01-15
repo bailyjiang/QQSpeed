@@ -1,0 +1,57 @@
+@charset 'uft-8';
+*{margin: 0; padding: 0;}
+h1,h2,h3{font-size: 16px;}
+ul,ol{list-style: none;}
+a{text-decoration: none; color: #464646;}
+img{display: block;}
+body{font-family: Arial, "宋体";}
+
+.l{float: left;}
+.r{float: right;}
+.clear:after{
+    content:'';
+    display: block;
+    clear: both;
+}
+.container{width:980px;margin:0 auto;position:relative;}
+.container-fluid{width:100%;}
+
+#head{
+    background: url("../images/head_bg.png") repeat-x;
+}
+#head .container{
+    height: 41px;
+}
+#head .head-logo{
+    width:220px;
+    height:41px;
+    background:url("../images/ost-bg.png") no-repeat 0 -38px;
+}
+#head .head-logo a{
+    display: block;
+    width: 100%px;
+    height: 100%;
+    text-indent: -999999px;
+    overflow: hidden;
+}
+#head .head-ad{
+    margin-left: 8px;
+}
+#head .head-menu{font-size: 14px;}
+#head .head-menu div{
+    height: 20px;
+    margin-top:12px;
+}
+#head  .head-menu-czsh{
+    margin-right: 26px;
+    padding-left: 20px;
+    background: url("../images/ost-bg.png") no-repeat left -91px;
+}
+#head .head-menu-top{
+    padding-right: 17px;
+    background:url("../images/ost-bg.png") no-repeat right -89px;
+}
+
+
+
+
